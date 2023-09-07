@@ -139,9 +139,12 @@ img:hover{
     margin-left: 0;
 }
 
-.stories > article > img{
-    height: 50%;
-    
+.stories > article > figure{
+    padding-bottom: 0   ;
+}
+
+.story{
+    height: 100px;
 }
 
 .rightcolum{
@@ -156,4 +159,11 @@ img:hover{
     padding-right: 0;
     padding-top: 0;
     gap: 0px;
+}
+
+h2{
+    font-size: 10px;
+}
+.storytext{
+    padding-top: 0;
 }
